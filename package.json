@@ -1,0 +1,11 @@
+{
+  "name": "hotstar-website-clone",
+  "version": "1.0.0",
+  "description": "clone a ‪HotstarVIP‬  website clone using simple HTML CSS and JAVASCRIPT techniques.",
+  "main": "inde.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
