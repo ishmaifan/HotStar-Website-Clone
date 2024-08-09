@@ -200,4 +200,20 @@ let movies = [
 
   //card sliders
   let cardContainers = [...document.querySelectorAll('.card-container')];
-  
+  let preBtns=[...document.querySelectorAll('.pre-btn')];
+  let nextBtns=[...document.querySelectorAll('.next-btn')];
+
+
+  cardContainers.forEach((container, i) =>{
+    let containerDimensions=container.getBoundingClientRect();
+    let containerWidth=containerDimensions.width;
+
+    nextBtns[i].addEventListener('click',( )=>{
+    item.scrollLeft +=containerWidth -200;
+    
+  })
+  preBtns[i].addEventListener('click', () =>{
+    item.scrollLeft -=containerWidth +200;
+  })
+
+});
